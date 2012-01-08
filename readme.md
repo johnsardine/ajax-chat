@@ -11,3 +11,11 @@ Original tutorial here:
 [Part 1](http://tutorialzine.com/2010/10/ajax-web-chat-php-mysql/)
 
 [Part 2](http://tutorialzine.com/2010/10/ajax-web-chat-css-jquery/)
+
+###Demo (.img)
+
+[New Design](http://cl.ly/D9rp)
+
+[Responsiveness](http://cl.ly/D9MC)
+
+[Notifications](http://cl.ly/D9Zu)
