@@ -1,18 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Chat</title>
-
-<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
-
-<link rel="stylesheet" type="text/css" href="style.css" />
-
+	<meta charset="utf-8">
+	<title>Chat</title>
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 
 <body>
-
-<div id="chatContainer">
 
 	<!-- chat header -->
 	<div id="chatTopBar">
@@ -35,15 +30,15 @@
 		 
 		<form id="loginForm" method="post" action="">
 			<span class="input-full">
-				<input type="text" id="name" name="name" class="rounded" maxlength="16" />
-				<input type="text" id="email" name="email" class="rounded" />
+				<input type="text" id="name" name="name" />
+				<input type="text" id="email" name="email" />
 			</span>
 			<input type="submit" class="uibutton large confirm" value="Login" />
 		</form>
 		 
 		<form id="submitForm" method="post" action="">
 			<span class="input-full">
-				<input type="text" id="chatText" name="chatText" class="rounded" maxlength="255" />
+				<input type="text" id="chatText" name="chatText" maxlength="255" autocomplete="off" />
 			</span>
 			<input type="submit" class="uibutton large" value="Submit" />
 		</form>
@@ -54,10 +49,13 @@
 	
 	</div>
 	<!-- chat controls -->
-	
-</div>
 
-<script src="js/script.min.js"></script>
+	<!-- unminified scripts
+	<script src="js/jquery.js"></script>
+	<script src="js/script.js"></script> -->
+	
+	<!-- minified scripts -->
+	<script src="js/script.min.js"></script>
 
 </body>
 </html>
