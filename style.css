@@ -709,7 +709,6 @@ input {
   background-color: #FFFFE0;
 }
 @media only screen and (max-width: 582px) {
-  /* Style adjustments for viewports 480px and over go here */
   body {
     padding: 60px 0 92px 0;
   }
