@@ -19,3 +19,14 @@ Original tutorial here:
 [Responsiveness](http://cl.ly/D9MC)
 
 [Notifications](http://cl.ly/D9Zu)
+
+####To-do?
+
+- Use Facebook user details
+- Require login to see the messages
+
+
+###Thanks
+
+- Tutorialzine obviously
+- Nicolas Gallagher ([necolas](https://github.com/necolas)), for his Facebook buttons in CSS, for normalize.css, and micro clearfix.
