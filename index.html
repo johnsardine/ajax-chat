@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Chat</title>
+
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+</head>
+
+<body>
+
+<div id="chatContainer">
+
+	<!-- chat header -->
+	<div id="chatTopBar">
+		<div class="logged-user">
+			<strong>Welcome!</strong>
+		</div>
+	</div>
+	<!-- chat header -->
+	
+	<!-- chat lines -->
+	<div id="chatLines">
+		<ul id="chatLineHolder">
+		</ul>
+	</div>
+	<!-- chat lines -->
+	
+	<!-- chat controls -->
+	<div id="chatBottomBar">
+		<div class="tip"></div>
+		 
+		<form id="loginForm" method="post" action="">
+			<span class="input-full">
+				<input type="text" id="name" name="name" class="rounded" maxlength="16" />
+				<input type="text" id="email" name="email" class="rounded" />
+			</span>
+			<input type="submit" class="uibutton large confirm" value="Login" />
+		</form>
+		 
+		<form id="submitForm" method="post" action="">
+			<span class="input-full">
+				<input type="text" id="chatText" name="chatText" class="rounded" maxlength="255" />
+			</span>
+			<input type="submit" class="uibutton large" value="Submit" />
+		</form>
+		 
+		<!-- chat users -->
+		<div id="chatUsers"></div>
+		<!-- chat users -->
+	
+	</div>
+	<!-- chat controls -->
+	
+</div>
+
+<script src="js/script.min.js"></script>
+
+</body>
+</html>
