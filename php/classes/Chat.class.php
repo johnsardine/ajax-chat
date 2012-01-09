@@ -91,9 +91,9 @@ class Chat{
 			$user->update();
 		}
 		
-		// Deleting chats older than 5 minutes and users inactive for 30 seconds
+		// Deleting chats older than 20 minutes and users inactive for 30 seconds
 		
-		DB::query("DELETE FROM webchat_lines WHERE ts < SUBTIME(NOW(),'0:5:0')");
+		DB::query("DELETE FROM webchat_lines WHERE ts < SUBTIME(NOW(),'0:20:0')");
 		DB::query("DELETE FROM webchat_users WHERE last_activity < SUBTIME(NOW(),'0:0:30')");
 		
 		$result = DB::query('SELECT * FROM webchat_users ORDER BY name ASC LIMIT 18');
