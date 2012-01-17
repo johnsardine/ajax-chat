@@ -156,6 +156,8 @@ var chat = {
 		
 		$('#loginForm').fadeOut(function(){
 			$('#submitForm').fadeIn();
+			$('#chatLineHolder').fadeIn();
+			$('#login-required').fadeOut();
 			$('#chatText').focus();
 		});
 		
